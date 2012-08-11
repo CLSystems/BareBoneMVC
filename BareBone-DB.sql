@@ -1,11 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 3.4.9
--- http://www.phpmyadmin.net
---
--- Host: node1.silverjet.nl
--- Generation Time: May 01, 2012 at 12:42 PM
--- Server version: 5.1.44
--- PHP Version: 5.3.8
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -15,12 +7,6 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
-
---
--- Database: `SIS`
---
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `framework__cruise_cabin`
@@ -35,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_cabin` (
   KEY `ship_id` (`ship_id`),
   KEY `cabin_type_id` (`cabin_type_id`),
   KEY `cabin_category_id` (`cabin_category_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
 
 --
 -- Dumping data for table `framework__cruise_cabin`
@@ -56,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_cabin_category` (
   `cabin_category_id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
   `cabin_category_name` varchar(30) NOT NULL,
   PRIMARY KEY (`cabin_category_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `framework__cruise_cabin_category`
@@ -96,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_cabin_description` (
   KEY `active_from` (`active_from`),
   KEY `active_untill` (`active_untill`),
   KEY `cabin_id` (`cabin_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `framework__cruise_cabin_description`
@@ -117,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_cabin_type` (
   `cabin_type_id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
   `cabin_type_name` varchar(100) NOT NULL,
   PRIMARY KEY (`cabin_type_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 --
 -- Dumping data for table `framework__cruise_cabin_type`
@@ -155,7 +141,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_cruise` (
   KEY `route_id` (`route_id`),
   KEY `date_departure` (`date_departure`),
   KEY `date_arrival` (`date_arrival`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
 
 --
 -- Dumping data for table `framework__cruise_cruise`
@@ -181,7 +167,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_cruise_description` (
   KEY `active_from` (`active_from`),
   KEY `active_untill` (`active_untill`),
   KEY `cruise_id` (`cruise_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `framework__cruise_cruise_description`
@@ -208,7 +194,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_price` (
   KEY `cruise_id` (`cruise_id`),
   KEY `cabin_id` (`cabin_id`),
   KEY `price` (`price`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
 
 --
 -- Dumping data for table `framework__cruise_price`
@@ -237,7 +223,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_route` (
   `harbours` tinyint(4) NOT NULL DEFAULT '0',
   `tax_harbours` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`route_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `framework__cruise_route`
@@ -260,7 +246,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_ship` (
   `shipping_company_id` smallint(6) NOT NULL,
   PRIMARY KEY (`ship_id`),
   KEY `shipping_company` (`shipping_company_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=51 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=51 ;
 
 --
 -- Dumping data for table `framework__cruise_ship`
@@ -330,7 +316,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_shipping_company` (
   `shipping_company_phone` varchar(30) NOT NULL,
   `shipping_company_address` varchar(200) NOT NULL,
   PRIMARY KEY (`shipping_company_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `framework__cruise_shipping_company`
@@ -367,7 +353,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_shipping_company_description` (
   KEY `shipping_company_id` (`shipping_company_id`),
   KEY `active_from` (`active_from`),
   KEY `active_untill` (`active_untill`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
 
 --
 -- Dumping data for table `framework__cruise_shipping_company_description`
@@ -406,7 +392,7 @@ CREATE TABLE IF NOT EXISTS `framework__cruise_ship_description` (
   KEY `active_from` (`active_from`),
   KEY `active_untill` (`active_untill`),
   KEY `ship_id` (`ship_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=71 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=71 ;
 
 --
 -- Dumping data for table `framework__cruise_ship_description`
@@ -483,7 +469,7 @@ CREATE TABLE IF NOT EXISTS `framework__language` (
   `status` tinyint(1) NOT NULL,
   PRIMARY KEY (`language_id`),
   KEY `name` (`name`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `framework__language`
@@ -505,7 +491,7 @@ CREATE TABLE IF NOT EXISTS `framework__setting` (
   `value` text CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `serialized` tinyint(1) NOT NULL,
   PRIMARY KEY (`setting_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24358 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24358 ;
 
 --
 -- Dumping data for table `framework__setting`
@@ -520,7 +506,7 @@ INSERT INTO `framework__setting` (`setting_id`, `group`, `key`, `value`, `serial
 (24327, 'config', 'config_image_additional_width', '74', 0),
 (24322, 'config', 'config_image_thumb_height', '228', 0),
 (24292, 'config', 'config_telephone', '123456789', 0),
-(24288, 'config', 'config_name', 'SilverJet IntraNet', 0),
+(24288, 'config', 'config_name', 'BareBone MVC', 0),
 (24342, 'config', 'config_smtp_port', '25', 0),
 (24334, 'config', 'config_image_wishlist_height', '50', 0),
 (24354, 'config', 'config_error_filename', 'error.txt', 0),
@@ -547,7 +533,7 @@ INSERT INTO `framework__setting` (`setting_id`, `group`, `key`, `value`, `serial
 (24335, 'config', 'config_image_cart_width', '80', 0),
 (24349, 'config', 'config_maintenance', '0', 0),
 (24351, 'config', 'config_compression', '0', 0),
-(24295, 'config', 'config_meta_description', 'Travel in Style', 0),
+(24295, 'config', 'config_meta_description', 'BareBoneMVC', 0),
 (24346, 'config', 'config_alert_emails', '', 0),
 (24303, 'config', 'config_customer_price', '0', 0),
 (24290, 'config', 'config_address', 'Address 1', 0),
@@ -556,16 +542,16 @@ INSERT INTO `framework__setting` (`setting_id`, `group`, `key`, `value`, `serial
 (24309, 'config', 'config_commission', '5', 0),
 (24316, 'config', 'config_cart_weight', '1', 0),
 (24298, 'config', 'config_admin_limit', '20', 0),
-(24302, 'config', 'config_invoice_prefix', 'INV-2011-00', 0),
+(24302, 'config', 'config_invoice_prefix', 'INV-2012-00', 0),
 (24304, 'config', 'config_customer_approval', '0', 0),
 (24310, 'config', 'config_stock_display', '0', 0),
-(24291, 'config', 'config_email', 'jeroen@silverjet.nl', 0),
+(24291, 'config', 'config_email', 'orbex1@gmail.com', 0),
 (24356, 'config', 'config_admin_language', 'nl', 0),
 (24321, 'config', 'config_image_thumb_width', '228', 0),
 (24324, 'config', 'config_image_popup_height', '500', 0),
 (24297, 'config', 'config_catalog_limit', '15', 0),
 (24328, 'config', 'config_image_additional_height', '74', 0),
-(24289, 'config', 'config_owner', 'SilverJet', 0),
+(24289, 'config', 'config_owner', 'CLSystems', 0),
 (24353, 'config', 'config_error_log', '1', 0),
 (24323, 'config', 'config_image_popup_width', '500', 0),
 (24306, 'config', 'config_account_id', '0', 0),
@@ -573,7 +559,7 @@ INSERT INTO `framework__setting` (`setting_id`, `group`, `key`, `value`, `serial
 (24318, 'config', 'config_icon', 'data/cart.png', 0),
 (24320, 'config', 'config_image_category_height', '80', 0),
 (24311, 'config', 'config_stock_warning', '0', 0),
-(24294, 'config', 'config_title', 'SilverJet IntraNet', 0),
+(24294, 'config', 'config_title', 'BareBoneMVC', 0),
 (24343, 'config', 'config_smtp_timeout', '5', 0),
 (24344, 'config', 'config_alert_mail', '0', 0),
 (24352, 'config', 'config_error_display', '1', 0),
@@ -602,7 +588,7 @@ CREATE TABLE IF NOT EXISTS `framework__user` (
   `status` tinyint(1) NOT NULL,
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`user_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=6 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `framework__user`
@@ -622,7 +608,7 @@ CREATE TABLE IF NOT EXISTS `framework__user_group` (
   `name` varchar(64) COLLATE utf8_bin NOT NULL,
   `permission` text COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`user_group_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=13 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=13 ;
 
 --
 -- Dumping data for table `framework__user_group`
@@ -645,7 +631,7 @@ CREATE TABLE IF NOT EXISTS `framework__vis_discount_baby` (
   `title` varchar(20) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `sort_order` smallint(6) NOT NULL DEFAULT '0',
   PRIMARY KEY (`discount_baby_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 --
 -- Dumping data for table `framework__vis_discount_baby`
@@ -673,7 +659,7 @@ CREATE TABLE IF NOT EXISTS `framework__vis_discount_kind` (
   `title` varchar(20) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `sort_order` smallint(6) NOT NULL DEFAULT '0',
   PRIMARY KEY (`discount_kind_id`)
-) ENGINE=ndbcluster  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 --
 -- Dumping data for table `framework__vis_discount_kind`
