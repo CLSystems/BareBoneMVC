@@ -1,0 +1,3 @@
+2012-04-13 17:14:58 - PHP Notice:  Undefined index: season in /home/www-sites/jeroen/BareBone/controller/common/header.php on line 50
+2012-04-13 17:14:58 - PHP Notice:  Undefined index: token in /home/www-sites/jeroen/BareBone/controller/common/header.php on line 50
+2012-04-23 16:21:44 - PHP Notice:  Undefined index: token in /home/www-sites/jeroen/BareBone/controller/common/header.php on line 50

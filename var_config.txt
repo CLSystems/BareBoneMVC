@@ -1,0 +1,37 @@
+<?php
+
+$siteurl  = 'http://'.$_SERVER['SERVER_NAME'].substr($_SERVER['SCRIPT_NAME'],0,strrpos($_SERVER['SCRIPT_NAME'],'/')).'/';
+$sitepath = substr($_SERVER['SCRIPT_FILENAME'],0,strrpos($_SERVER['SCRIPT_FILENAME'],'/')).'/'; 
+
+// HTTP
+define('HTTP_SERVER', $siteurl);
+define('HTTP_CATALOG', $siteurl);
+define('HTTP_IMAGE', $siteurl.'image/');
+
+// HTTPS
+define('HTTPS_SERVER', $siteurl);
+define('HTTPS_IMAGE', $siteurl.'image/');
+
+// DIR
+define('DIR_APPLICATION', $sitepath);
+define('DIR_SYSTEM', $sitepath.'system/');
+define('DIR_DATABASE', $sitepath.'system/database/');
+define('DIR_LANGUAGE', $sitepath.'language/');
+define('DIR_TEMPLATE', $sitepath.'view/template/');
+define('DIR_CONFIG', $sitepath.'system/config/');
+define('DIR_IMAGE', $sitepath.'image/');
+define('DIR_CACHE', $sitepath.'system/cache/');
+define('DIR_DOWNLOAD', $sitepath.'/download/');
+define('DIR_LOGS', $sitepath.'system/logs/');
+define('DIR_CATALOG', $sitepath);
+
+// DB
+define('DB_DRIVER', 'mysql');
+define('DB_HOSTNAME', 'hostname_here');    
+define('DB_USERNAME', 'username_here');
+define('DB_PASSWORD', 'password_here');
+define('DB_DATABASE', 'databasename_here');
+define('FW_PREFIX', 'framework__');
+define('DB_PREFIX', 'framework__');
+
+?>
