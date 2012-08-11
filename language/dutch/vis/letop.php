@@ -1,6 +1,6 @@
 <?php
 /**
- * LetOp language file for SilverJet BareBone.
+ * LetOp language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

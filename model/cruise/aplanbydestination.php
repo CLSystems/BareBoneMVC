@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class APlanByDestination for SilverJet BareBone.
+ * Model class APlanByDestination for BareBoneMVC.
  *
  * @package BareBone\Model\Cruise 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * DestinationReady class controller for SilverJet BareBone.
+ * DestinationReady class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

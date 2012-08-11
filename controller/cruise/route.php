@@ -1,6 +1,6 @@
 <?php
 /**
- * Route class controller for SilverJet BareBone.
+ * Route class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Cruise 
  *

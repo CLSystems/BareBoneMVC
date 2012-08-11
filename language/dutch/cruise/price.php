@@ -1,6 +1,6 @@
 <?php
 /**
- * Price language file for SilverJet BareBone.
+ * Price language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Cruise 
  *

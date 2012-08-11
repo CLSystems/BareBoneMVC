@@ -1,6 +1,6 @@
 <?php
 /**
- * SettingSetting class controller for SilverJet BareBone.
+ * SettingSetting class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Setting 
  *

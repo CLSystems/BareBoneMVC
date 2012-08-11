@@ -1,6 +1,6 @@
 <?php
 /**
- * Backup language file for SilverJet BareBone.
+ * Backup language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Tool 
  *

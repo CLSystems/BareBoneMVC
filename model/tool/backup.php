@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Backup for SilverJet BareBone.
+ * Model class Backup for BareBoneMVC.
  *
  * @package BareBone\Model\Tool 
  *

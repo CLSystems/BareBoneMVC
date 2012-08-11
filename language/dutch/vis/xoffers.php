@@ -1,6 +1,6 @@
 <?php
 /**
- * XOffers language file for SilverJet BareBone.
+ * XOffers language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

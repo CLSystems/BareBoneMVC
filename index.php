@@ -1,6 +1,6 @@
 <?php
 /**
- * Index file for SilverJet BareBone.
+ * Index file for BareBoneMVC.
  *
  * Special adaptations for setting the seasons can be found in: /controller/common/header.php .
  * These need to be updated whenever a new season is implemented/started.

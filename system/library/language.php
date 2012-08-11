@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Language for SilverJet BareBone.
+ * Final class Language for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

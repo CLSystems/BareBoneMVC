@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class ShippingCompany for SilverJet BareBone.
+ * Model class ShippingCompany for BareBoneMVC.
  *
  * @package BareBone\Model\Cruise 
  *

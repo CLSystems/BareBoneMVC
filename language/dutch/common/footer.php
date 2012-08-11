@@ -1,6 +1,6 @@
 <?php
 /**
- * Footer language file for SilverJet BareBone.
+ * Footer language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Common  
  *
@@ -12,5 +12,5 @@
   
 
 // Text
-$_['text_footer'] = '<a href="http://www.silverjet.nl">SilverJet</a> &copy; ' . date('Y') . '<br />Versie %s';
+$_['text_footer'] = '<a href="http://www.clsystems.nl">CLSystems</a> &copy; ' . date('Y') . '<br />Versie %s';
 ?>

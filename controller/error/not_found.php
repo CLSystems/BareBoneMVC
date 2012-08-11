@@ -1,6 +1,6 @@
 <?php
 /**
- * ErrorNotFound class controller for SilverJet BareBone.
+ * ErrorNotFound class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Error 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Url for SilverJet BareBone.
+ * Class Url for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

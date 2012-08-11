@@ -1,6 +1,6 @@
 <?php
 /**
- * Route language file for SilverJet BareBone.
+ * Route language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Cruise 
  *

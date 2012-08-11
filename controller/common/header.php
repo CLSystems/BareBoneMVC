@@ -1,6 +1,6 @@
 <?php
 /**
- * Header class controller for SilverJet BareBone.
+ * Header class controller for BareBoneMVC.
  * Contains special adaptations for Module VIS.
  *
  * @package BareBone\Controller\Common 

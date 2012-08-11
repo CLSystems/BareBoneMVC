@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class MSSQL for SilverJet BareBone.
+ * Final class MSSQL for BareBoneMVC.
  *
  * @package BareBone\System\Database 
  *

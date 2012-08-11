@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Action for SilverJet BareBone.
+ * Final class Action for BareBoneMVC.
  *
  * @package BareBone\System\Engine 
  *

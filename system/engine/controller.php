@@ -1,6 +1,6 @@
 <?php
 /**
- * Abstract class Controller for SilverJet BareBone.
+ * Abstract class Controller for BareBoneMVC.
  *
  * @package BareBone\System\Engine 
  *

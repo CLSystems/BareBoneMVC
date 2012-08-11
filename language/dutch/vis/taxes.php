@@ -1,6 +1,6 @@
 <?php
 /**
- * Taxes language file for SilverJet BareBone.
+ * Taxes language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

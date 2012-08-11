@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Cruise for SilverJet BareBone.
+ * Model class Cruise for BareBoneMVC.
  *
  * @package BareBone\Model\Cruise 
  *

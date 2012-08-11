@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Loader for SilverJet BareBone.
+ * Final class Loader for BareBoneMVC.
  *
  * @package BareBone\System\Engine 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * ARoutes class controller for SilverJet BareBone.
+ * ARoutes class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

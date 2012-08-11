@@ -1,6 +1,6 @@
 <?php
 /**
- * LetOp class controller for SilverJet BareBone.
+ * LetOp class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Price class controller for SilverJet BareBone.
+ * Price class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Cruise 
  *

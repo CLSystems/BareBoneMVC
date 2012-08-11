@@ -1,6 +1,6 @@
 <?php
 /**
- * UserUserGroups class controller for SilverJet BareBone.
+ * UserUserGroups class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\User 
  *

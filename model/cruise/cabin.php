@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Cabin for SilverJet BareBone.
+ * Model class Cabin for BareBoneMVC.
  *
  * @package BareBone\Model\Cruise 
  *

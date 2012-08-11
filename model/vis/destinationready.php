@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class DestinationReady for SilverJet BareBone.
+ * Model class DestinationReady for BareBoneMVC.
  *
  * @package BareBone\Model\Vis 
  *

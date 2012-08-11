@@ -1,6 +1,6 @@
 <?php
 /**
- * XOffers class controller for SilverJet BareBone.
+ * XOffers class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

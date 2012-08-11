@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Image for SilverJet BareBone.
+ * Model class Image for BareBoneMVC.
  *
  * @package BareBone\Model\Tool 
  *

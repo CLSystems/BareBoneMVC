@@ -1,6 +1,6 @@
 <?php
 /**
- * Abstract class Model for SilverJet BareBone.
+ * Abstract class Model for BareBoneMVC.
  *
  * @package BareBone\System\Engine 
  *

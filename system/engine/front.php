@@ -1,6 +1,6 @@
 <?php
 /**
- * Final classs Front for SilverJet BareBone.
+ * Final classs Front for BareBoneMVC.
  *
  * @package BareBone\System\Engine 
  *

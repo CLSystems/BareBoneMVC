@@ -1,6 +1,6 @@
 <?php
 /**
- * FileManager language file for SilverJet BareBone.
+ * FileManager language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Common  
  *

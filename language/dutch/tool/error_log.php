@@ -1,6 +1,6 @@
 <?php
 /**
- * ErrorLog language file for SilverJet BareBone.
+ * ErrorLog language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Tool 
  *

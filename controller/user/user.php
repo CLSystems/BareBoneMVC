@@ -1,6 +1,6 @@
 <?php
 /**
- * UserUser class controller for SilverJet BareBone.
+ * UserUser class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\User 
  *

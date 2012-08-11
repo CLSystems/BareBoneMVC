@@ -1,6 +1,6 @@
 <?php
 /**
- * Login language file for SilverJet BareBone.
+ * Login language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Common  
  *
@@ -12,10 +12,10 @@
   
 
 // header
-$_['heading_title']  = 'SilverJet IntraNet';
+$_['heading_title']  = 'BareBoneMVC';
 
 // Text
-$_['text_heading']   = 'SilverJet IntraNet';
+$_['text_heading']   = 'BareBoneMVC';
 $_['text_login']     = 'Voer uw gegevens in a.u.b.';
 $_['text_forgotten']     = 'Wachtwoord vergeten?';
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * APlanByDestination language file for SilverJet BareBone.
+ * APlanByDestination language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Cruise 
  *

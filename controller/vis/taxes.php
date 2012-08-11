@@ -1,6 +1,6 @@
 <?php
 /**
- * Taxes class controller for SilverJet BareBone.
+ * Taxes class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

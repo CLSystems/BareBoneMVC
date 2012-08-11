@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Route for SilverJet BareBone.
+ * Model class Route for BareBoneMVC.
  *
  * @package BareBone\Model\Cruise 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Debug for SilverJet BareBone.
+ * Final class Debug for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

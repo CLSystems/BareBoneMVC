@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class ARoutes for SilverJet BareBone.
+ * Model class ARoutes for BareBoneMVC.
  *
  * @package BareBone\Model\Vis 
  *

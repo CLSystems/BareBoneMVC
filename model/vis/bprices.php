@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class BPrices for SilverJet BareBone.
+ * Model class BPrices for BareBoneMVC.
  *
  * @package BareBone\Model\Vis 
  *

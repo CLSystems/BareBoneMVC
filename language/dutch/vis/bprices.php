@@ -1,6 +1,6 @@
 <?php
 /**
- * BPrices language file for SilverJet BareBone.
+ * BPrices language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

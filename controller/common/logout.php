@@ -1,6 +1,6 @@
 <?php
 /**
- * Logout class controller for SilverJet BareBone.
+ * Logout class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

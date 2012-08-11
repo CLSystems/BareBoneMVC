@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Setting for SilverJet BareBone.
+ * Model class Setting for BareBoneMVC.
  *
  * @package BareBone\Model\Setting 
  *

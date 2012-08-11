@@ -1,6 +1,6 @@
 <?php
 /**
- * Reset class controller for SilverJet BareBone.
+ * Reset class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

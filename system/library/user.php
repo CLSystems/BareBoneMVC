@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class User for SilverJet BareBone.
+ * Final class User for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

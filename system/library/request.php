@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Request for SilverJet BareBone.
+ * Final class Request for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * NotFound language file for SilverJet BareBone.
+ * NotFound language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Error 
  *

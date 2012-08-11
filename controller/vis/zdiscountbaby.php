@@ -1,6 +1,6 @@
 <?php
 /**
- * ZDiscountBaby class controller for SilverJet BareBone.
+ * ZDiscountBaby class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

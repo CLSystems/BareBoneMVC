@@ -1,6 +1,6 @@
 <?php
 /**
- * CabinType language file for SilverJet BareBone.
+ * CabinType language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Cruise 
  *

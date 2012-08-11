@@ -1,6 +1,6 @@
 <?php
 /**
- * ZDiscountKind language file for SilverJet BareBone.
+ * ZDiscountKind language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

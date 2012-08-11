@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Pagination for SilverJet BareBone.
+ * Final class Pagination for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

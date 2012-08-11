@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Cache for SilverJet BareBone.
+ * Final class Cache for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

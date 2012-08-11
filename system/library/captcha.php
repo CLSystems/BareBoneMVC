@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Captcha for SilverJet BareBone.
+ * Class Captcha for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

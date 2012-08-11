@@ -1,6 +1,6 @@
 <?php
 /**
- * ToolBackup class controller for SilverJet BareBone.
+ * ToolBackup class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Tool 
  *

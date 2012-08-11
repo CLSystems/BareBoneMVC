@@ -1,6 +1,6 @@
 <?php
 /**
- * Startup file for SilverJet BareBone.
+ * Startup file for BareBoneMVC.
  *
  * @package BareBone\System 
  *

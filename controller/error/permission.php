@@ -1,6 +1,6 @@
 <?php
 /**
- * ErrorPermission class controller for SilverJet BareBone.
+ * ErrorPermission class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Error 
  *

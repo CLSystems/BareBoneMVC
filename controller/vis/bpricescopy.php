@@ -1,6 +1,6 @@
 <?php
 /**
- * BPricesCopy class controller for SilverJet BareBone.
+ * BPricesCopy class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

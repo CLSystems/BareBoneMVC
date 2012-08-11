@@ -1,6 +1,6 @@
 <?php
 /**
- * ToolErrorLog class controller for SilverJet BareBone.
+ * ToolErrorLog class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Tool 
  *

@@ -609,11 +609,7 @@ CREATE TABLE IF NOT EXISTS `framework__user` (
 --
 
 INSERT INTO `framework__user` (`user_id`, `user_group_id`, `username`, `password`, `firstname`, `lastname`, `email`, `code`, `ip`, `status`, `date_added`) VALUES
-(3, 11, 'cruiseverkoper', 'cb873f296c8f578b70bdfc61fd7ed7e7', 'Cruise', 'Verkoper', 'jeroen@silverjet.nl', '', '192.165.10.79', 1, '2012-03-14 10:16:22'),
-(5, 1, 'alex', 'cb873f296c8f578b70bdfc61fd7ed7e7', 'Alexander', 'Presman', 'alex@silverjet.nl', '', '', 1, '2012-03-15 11:02:50'),
-(1, 1, 'admin', '0d760969fea0f4977517a7276250c7ec', 'Admin', 'Istrator', 'j.guyt@silverjet.nl', '831d5b849495031932e6637d76331c93', '192.165.10.79', 1, '1973-08-06 00:00:00'),
-(2, 10, 'tester', '098f6bcd4621d373cade4e832627b4f6', 'T.', 'Ester', 'jeroen@silverjet.nl', '', '192.165.10.79', 1, '2012-03-13 16:48:24'),
-(4, 12, 'cruisesupervisor', 'cb873f296c8f578b70bdfc61fd7ed7e7', 'Cruise', 'Supervisor', 'jeroen@silverjet.nl', '', '192.165.10.79', 1, '2012-03-14 12:49:25');
+(1, 1, 'admin', '0d760969fea0f4977517a7276250c7ec', 'Admin', 'Istrator', 'orbex1@gmail.com', '831d5b849495031932e6637d76331c93', '192.165.10.79', 1, '1973-08-06 00:00:00');
 
 -- --------------------------------------------------------
 

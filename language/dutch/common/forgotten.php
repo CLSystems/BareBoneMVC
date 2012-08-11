@@ -1,6 +1,6 @@
 <?php
 /**
- * Forgotten language file for SilverJet BareBone.
+ * Forgotten language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Common  
  *

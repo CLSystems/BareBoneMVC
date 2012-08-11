@@ -1,6 +1,6 @@
 <?php
 /**
- * ShippingCompany class controller for SilverJet BareBone.
+ * ShippingCompany class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Cruise 
  *

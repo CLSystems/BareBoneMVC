@@ -5,7 +5,7 @@
 */
 
 /**
- * CKEditor class file for SilverJet BareBone.
+ * CKEditor class file for BareBoneMVC.
  *
  * @package BareBone\View\Javascript\CKEditor 
  *

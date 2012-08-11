@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class LetOp for SilverJet BareBone.
+ * Model class LetOp for BareBoneMVC.
  *
  * @package BareBone\Model\Vis 
  *

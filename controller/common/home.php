@@ -1,6 +1,6 @@
 <?php
 /**
- * Home class controller for SilverJet BareBone.
+ * Home class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

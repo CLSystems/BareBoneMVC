@@ -1,6 +1,6 @@
 <?php
 /**
- * Settings language file for SilverJet BareBone.
+ * Settings language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Setting 
  *

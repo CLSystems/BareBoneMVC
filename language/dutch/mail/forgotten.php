@@ -1,6 +1,6 @@
 <?php
 /**
- * MailForgotten language file for SilverJet BareBone.
+ * MailForgotten language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Mail 
  *

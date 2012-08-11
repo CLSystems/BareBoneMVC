@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class DB for SilverJet BareBone.
+ * Final class DB for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

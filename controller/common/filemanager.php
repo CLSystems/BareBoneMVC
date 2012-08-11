@@ -1,6 +1,6 @@
 <?php
 /**
- * Filemanager class controller for SilverJet BareBone.
+ * Filemanager class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

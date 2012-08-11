@@ -1,6 +1,6 @@
 <?php
 /**
- * Permission language file for SilverJet BareBone.
+ * Permission language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Error 
  *

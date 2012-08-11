@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class User for SilverJet BareBone.
+ * Model class User for BareBoneMVC.
  *
  * @package BareBone\Model\User 
  *

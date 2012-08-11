@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class UserGroups for SilverJet BareBone.
+ * Model class UserGroups for BareBoneMVC.
  *
  * @package BareBone\Model\User 
  *

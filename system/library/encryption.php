@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Encryption for SilverJet BareBone.
+ * Final class Encryption for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

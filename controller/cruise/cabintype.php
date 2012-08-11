@@ -1,6 +1,6 @@
 <?php
 /**
- * CabinType class controller for SilverJet BareBone.
+ * CabinType class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Cruise 
  *

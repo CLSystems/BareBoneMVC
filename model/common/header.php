@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Header for SilverJet BareBone.
+ * Model class Header for BareBoneMVC.
  *
  * @package BareBone\Model\Common 
  *

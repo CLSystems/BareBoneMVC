@@ -1,6 +1,6 @@
 <?php
 /**
- * ZAltMeals language file for SilverJet BareBone.
+ * ZAltMeals language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

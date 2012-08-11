@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Mail for SilverJet BareBone.
+ * Final class Mail for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

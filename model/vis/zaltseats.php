@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class ZAltSeats for SilverJet BareBone.
+ * Model class ZAltSeats for BareBoneMVC.
  *
  * @package BareBone\Model\Vis 
  *

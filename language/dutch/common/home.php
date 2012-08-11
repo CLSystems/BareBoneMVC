@@ -1,6 +1,6 @@
 <?php
 /**
- * Home language file for SilverJet BareBone.
+ * Home language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Common  
  *
@@ -12,7 +12,7 @@
   
 
 // Heading
-$_['heading_title']                 = 'SilverJet IntraNet - Dashboard';
+$_['heading_title']                 = 'BareBoneMVC - Dashboard';
 
 // Text
 $_['text_overview']                 = 'Overzicht';

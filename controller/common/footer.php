@@ -1,6 +1,6 @@
 <?php
 /**
- * Footer class controller for SilverJet BareBone.
+ * Footer class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

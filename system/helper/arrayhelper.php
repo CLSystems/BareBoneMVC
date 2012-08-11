@@ -1,6 +1,6 @@
 <?php
 /**
- * Helper file for SilverJet BareBone.
+ * Helper file for BareBoneMVC.
  *
  * Contains several functions to manipulate arrays.
  *

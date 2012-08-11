@@ -1,6 +1,6 @@
 <?php
 /**
- * DestinationReady language file for SilverJet BareBone.
+ * DestinationReady language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

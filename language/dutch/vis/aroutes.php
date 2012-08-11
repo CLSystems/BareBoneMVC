@@ -1,6 +1,6 @@
 <?php
 /**
- * ARoutes language file for SilverJet BareBone.
+ * ARoutes language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Vis 
  *

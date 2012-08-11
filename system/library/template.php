@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Template for SilverJet BareBone.
+ * Final class Template for BareBoneMVC.
  *
  * @package BareBone\System\Library 
  *

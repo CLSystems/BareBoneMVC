@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class Registry for SilverJet BareBone.
+ * Final class Registry for BareBoneMVC.
  *
  * @package BareBone\System\Engine 
  *

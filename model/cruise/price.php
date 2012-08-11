@@ -1,6 +1,6 @@
 <?php
 /**
- * Model class Price for SilverJet BareBone.
+ * Model class Price for BareBoneMVC.
  *
  * @package BareBone\Model\Cruise 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Login class controller for SilverJet BareBone.
+ * Login class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

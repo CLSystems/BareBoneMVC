@@ -1,6 +1,6 @@
 <?php
 /**
- * ZAltSeats class controller for SilverJet BareBone.
+ * ZAltSeats class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Vis 
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Forgotten class controller for SilverJet BareBone.
+ * Forgotten class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Common 
  *

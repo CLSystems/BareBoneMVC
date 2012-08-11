@@ -1,6 +1,6 @@
 <?php
 /**
- * Cruise language file for SilverJet BareBone.
+ * Cruise language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Cruise 
  *

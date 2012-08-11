@@ -1,6 +1,6 @@
 <?php
 /**
- * Cruise class controller for SilverJet BareBone.
+ * Cruise class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Cruise 
  *

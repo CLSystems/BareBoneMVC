@@ -1,6 +1,6 @@
 <?php
 /**
- * Final class MySQL for SilverJet BareBone.
+ * Final class MySQL for BareBoneMVC.
  *
  * @package BareBone\System\Database 
  *

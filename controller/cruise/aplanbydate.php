@@ -1,6 +1,6 @@
 <?php
 /**
- * APlanByDate class controller for SilverJet BareBone.
+ * APlanByDate class controller for BareBoneMVC.
  *
  * @package BareBone\Controller\Cruise 
  *

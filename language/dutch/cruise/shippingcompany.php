@@ -1,6 +1,6 @@
 <?php
 /**
- * ShippingCompany language file for SilverJet BareBone.
+ * ShippingCompany language file for BareBoneMVC.
  *
  * @package BareBone\Language\Dutch\Cruise 
  *
