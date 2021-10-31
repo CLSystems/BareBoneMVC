@@ -11,3 +11,4 @@ This MVC is still a bit rudimentary, but hey, it works and contains a lot of exa
 
 Feel free to contact me if you have any questions at orbex1.at.gmail.com
 
+[![GitNFT](https://img.shields.io/badge/%F0%9F%94%AE-Open%20in%20GitNFT-darkviolet?style=social)](https://gitnft.quine.sh/app/commits/list/repo/BareBoneMVC)
